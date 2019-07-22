@@ -1,3 +1,7 @@
+terraform {
+  required_version = "0.11.13"
+}
+
 provider "oci" {
   version          = ">= 3.23.0"
 
